@@ -1,4 +1,4 @@
-
+import reactImg from './assets/react-core-concepts.png';
 const reactDescriptions = ['Fundamentals', 'Core', 'Crucial']
 
 function getRandomInt(max){
@@ -11,7 +11,7 @@ function Header(){
 
   return (    
     <header>
-      <img src="/src/assets/components.png" alt="" />
+      <img src={reactImg} alt="" />
       <h1>{description} React Essentials </h1>
       <p> this is a random para writtten only for testing.</p>
     </header>
